@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId 'com.android.gl2jni'
+        minSdkVersion 21
+        targetSdkVersion 33
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                          'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api project(path: ':libretrodroid')
+    implementation "androidx.core:core-ktx:1.9.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+    implementation "androidx.appcompat:appcompat:1.5.1"
+
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+    implementation "com.github.swordfish90:radialgamepad:08d1dd95"
+}
+
+repositories {
+    mavenCentral()
+}
+
