@@ -13,6 +13,9 @@ SuperLibretroDroid is a simple C++ Libretro frontend library for Android. It ori
 - Simple shader effects (such as CRT and LCD)
 - Multiple disks
 
+## Upcoming Features
+[COMING SOON]
+
 ## Tested, Working Libretro Cores
 - [FinalBurn Neo](https://docs.libretro.com/library/fbneo/)
 - [MAME 2003-Plus](https://docs.libretro.com/library/mame2003_plus/)
