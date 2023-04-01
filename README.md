@@ -1,5 +1,5 @@
 # SuperLibretroDroid
-SuperLibretroDroid is a simple C++ Libretro frontend library for Android. It originated from [LibretroDroid 0.9.0](https://github.com/Swordfish90/LibretroDroid/tree/0.9.0) and, in a few months, it will be powering [Emulair](https://github.com/RaduBratan/Emulair). The prefix "Super" is a nod to the Super Nintendo Entertainment System.
+SuperLibretroDroid is a simple C++ Libretro frontend library for Android. It originated from [LibretroDroid 0.9.0](https://github.com/Swordfish90/LibretroDroid/tree/0.9.0) and, in a few months, will be powering [Emulair](https://github.com/RaduBratan/Emulair). The prefix "Super" is a nod to the Super Nintendo Entertainment System.
 
 ## Supported Features
 - 2D Cores
